@@ -1,1 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
 
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+background-color: #001f4d;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 50px;
+}
+
+.logo {
+width: 120px;
+height: auto;
+}
+
+nav ul {
+display: flex;
+list-style: none;QC
+gap: 30px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+.hero {
+width: 100%;
+}
+
+.hero-banner {
+width: 100%;
+display: block;
+}
