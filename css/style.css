@@ -104,9 +104,8 @@ display: block;
 }
 
 .services {
-    padding: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
+    padding: 80px 40px;
+    background: #ffffff;
 }
 
 .service-grid {
