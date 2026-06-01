@@ -128,3 +128,47 @@ display: block;
 .service-card p {
     font-size: 14px;
 }
+.before-after {
+    background: #001f4d;
+    padding: 30px 40px;
+}
+
+.before-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.before-header h4 {
+    color: #d9a321;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.before-header h2 {
+    color: white;
+    font-size: 42px;
+}
+
+.gallery-button {
+    color: white;
+    text-decoration: none;
+    border: 2px solid #d9a321;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.before-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.before-grid img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 4px;
+}
