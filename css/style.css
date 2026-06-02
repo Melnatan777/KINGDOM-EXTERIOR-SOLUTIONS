@@ -29,8 +29,16 @@ nav {
 
 nav ul {
   display: flex;
+  flex-direction: row;
+  align-items: center;
   list-style: none;
   gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none;
 }
 
 nav ul li a {
