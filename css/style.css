@@ -22,10 +22,10 @@ align-items:center;
 padding:15px 20px;
 }
 
-.logo{
-width:120px;
-height:auto;
-display:block;
+.logo {
+    width: 500px !important;
+    height: auto !important;
+    border: 5px solid red;
 }
 
 nav ul{
