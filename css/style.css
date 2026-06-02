@@ -16,10 +16,10 @@ header {
     height: auto;
 }
 nav {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 12px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
 }
 
 .logo {
