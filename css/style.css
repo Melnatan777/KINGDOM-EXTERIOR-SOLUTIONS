@@ -23,8 +23,9 @@ nav {
 }
 
 .logo {
-width: 180px;
-height: auto;
+    width: 140px;
+    height: auto;
+    display: block;
 }
 nav ul {
 display: flex;
