@@ -19,14 +19,6 @@ nav {
     padding: 20px 60px 0 60px;
 }
 
-.logo {
-    width: 320px;
-    height: auto;
-
-    position: relative;
-    top: 20px;
-}
-
 nav ul {
   display: flex;
   flex-direction: row;
