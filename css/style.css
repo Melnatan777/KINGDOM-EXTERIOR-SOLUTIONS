@@ -20,11 +20,14 @@ nav {
 }
 
 .logo {
-  width: 300px;
-  height: auto;
+    width: 380px;
+    height: auto;
 
-  position: relative;
-  top: 60px;
+    position: relative;
+    top: 35px;
+    left: 40px;
+
+    z-index: 100;
 }
 
 nav ul {
