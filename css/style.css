@@ -66,8 +66,9 @@ nav ul li a {
 
 .service-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(280px, 1fr));
   gap: 25px;
+  margin-top: 40px;
 }
 
 .service-card {
@@ -92,10 +93,10 @@ nav ul li a {
 }
 
 .service-card p {
-  padding: 15px;
+  padding: 15px 20px;
   color: #555;
-  font-size: 15px;
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 .before-after {
