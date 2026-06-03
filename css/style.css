@@ -217,7 +217,7 @@ nav ul li a {
 
 .service-list span {
     white-space: nowrap;
-    color: #d9a321;
+    color: #d9a321 !important;
 }
 
 .hero-buttons {
