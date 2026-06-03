@@ -179,7 +179,11 @@ nav ul li a {
 }
 
 .hero-content p {
-    font-size: 22px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #f4f4f4;
 }
 
 .quote-btn {
