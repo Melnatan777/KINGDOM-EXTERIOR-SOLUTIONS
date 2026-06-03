@@ -154,7 +154,7 @@ nav ul li a {
 
 .hero-content {
     position: absolute;
-    top: 310px;
+    top: 400px;
     left: 70px;
     color: white;
     max-width: 700px;
@@ -171,12 +171,11 @@ nav ul li a {
 
 .hero-content h1 {
     font-family: "Book Antiqua", Palatino, serif;
-    font-size: 52px;
-    line-height: 1.1;
+    font-size: 58px;
+    line-height: 1.05;
     font-weight: 700;
     color: white;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .hero-content p {
@@ -197,10 +196,10 @@ nav ul li a {
     text-decoration: none;
 }
 .gold-line {
-    width: 220px;
+    width: 280px;
     height: 4px;
     background: #d9a321;
-    margin: 20px 0;
+    margin: 5px 0 25px 0;
 }
 
 .service-list {
