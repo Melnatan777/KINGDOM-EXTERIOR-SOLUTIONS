@@ -259,7 +259,9 @@ nav ul li a {
 @media (max-width: 768px) {
 
 .hero-banner {
-    height: 650px;
+    height: 850px;
+    object-fit: cover;
+    object-position: top center;
 }
 
 .hero-content {
