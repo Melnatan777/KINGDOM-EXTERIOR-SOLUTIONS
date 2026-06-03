@@ -154,10 +154,10 @@ nav ul li a {
 
 .hero-content {
     position: absolute;
-    top: 220px;
-    left: 80px;
+    top: 310px;
+    left: 70px;
     color: white;
-    max-width: 650px;
+    max-width: 700px;
 }
 
 .hero-content h4 {
