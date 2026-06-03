@@ -152,6 +152,7 @@ nav ul li a {
 }
 .hero {
     position: relative;
+    min-height: 850px;
 }
 
 .hero-content {
