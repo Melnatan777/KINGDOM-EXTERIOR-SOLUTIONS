@@ -256,3 +256,76 @@ nav ul li a {
     font-weight: bold;
     border-radius: 4px;
 }
+@media (max-width: 768px) {
+
+.hero {
+    min-height: auto;
+}
+
+.hero-banner {
+    height: 700px;
+}
+
+.hero-content {
+    top: 130px;
+    left: 20px;
+    right: 20px;
+    max-width: 100%;
+}
+
+.hero-content h4 {
+    font-size: 14px;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    line-height: 1;
+}
+
+.hero-content p {
+    max-width: 100%;
+    font-size: 16px;
+}
+
+.service-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.hero-buttons {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.quote-btn,
+.service-btn {
+    display: block;
+    text-align: center;
+}
+
+.service-grid {
+    grid-template-columns: 1fr;
+}
+
+.before-grid {
+    grid-template-columns: 1fr;
+}
+
+.before-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.before-header h2 {
+    font-size: 42px;
+}
+
+.gallery-button {
+    width: 100%;
+    text-align: center;
+}
+
+}
