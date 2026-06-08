@@ -33,6 +33,7 @@ header {
     padding: 12px 20px;
     border-radius: 4px;
     white-space: nowrap;
+}
 nav {
     display: flex;
     align-items: center;
