@@ -17,12 +17,14 @@ header {
 }
 
 .logo-container {
-    display: flex;
-    align-items: center;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    z-index: 100;
 }
 
 .logo {
-    height: 140 px;
+    height: 180px;
     width: auto;
 }
 .phone-btn {
