@@ -207,19 +207,17 @@ a {
     display: flex;
     align-items: center;
     overflow: hidden;
-    background:
-        linear-gradient(
-        rgba(1,21,51,.82),
-        rgba(1,21,51,.82)),
-        url('../images/hero-home.webp');
-    background-size: cover;
-    background-position: center;
+    background: linear-gradient(
+        135deg,
+        #34496d,
+        #2f4366
+    );
 }
 
 .hero-grid {
     display: grid;
-    grid-template-columns: 1.25fr 0.75fr;
-    gap: 100px;
+    grid-template-columns: 58% 42%;
+    gap: 80px;
     align-items: center;
 }
 
@@ -259,16 +257,61 @@ a {
     flex-wrap: wrap;
 }
 
+/* IMAGE */
+
 .hero-image {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .hero-image img {
     width: 100%;
-    border-radius: 28px;
+    max-width: 720px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+
+    border-radius: 32px;
+
+    box-shadow:
+        0 30px 80px rgba(0,0,0,.35),
+        0 0 60px rgba(217,162,39,.20);
+
+    transition: all .3s ease;
 }
 
+/* MOBILE */
+
+@media (max-width: 992px) {
+
+    .hero {
+        padding-top: 120px;
+        padding-bottom: 80px;
+        min-height: auto;
+    }
+
+    .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero-checks,
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-image {
+        justify-content: center;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+    }
+}
 /* =========================
    TRUST BAR
 ========================= */
