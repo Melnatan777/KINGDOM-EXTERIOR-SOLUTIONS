@@ -224,6 +224,7 @@ a {
 }
 
 .hero-content {
+    max-width: 760px;
     color: white;
 }
 
@@ -264,9 +265,8 @@ a {
 }
 
 .hero-image img {
-    width: 500px;
-    filter:
-        drop-shadow(0 0 35px rgba(217,162,39,.55));
+    width: 100%;
+    border-radius: 28px;
 }
 
 /* =========================
