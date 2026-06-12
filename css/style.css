@@ -158,10 +158,9 @@ a {
     top: 0;
     width: 100%;
     z-index: 999;
-
     background: #021D49;
-
     border-bottom: none;
+    overflow: visible;
 }
 
 .header-inner {
@@ -172,10 +171,17 @@ a {
     min-height: 125px;
 }
 
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    z-index: 1000;
+}
 .logo img {
-    height: 150px;
+    height: 220px;
     width: auto;
     display: block;
+}
 }
 
 .nav-menu {
