@@ -218,8 +218,8 @@ a {
 
 .hero-grid {
     display: grid;
-    grid-template-columns: 1.1fr .9fr;
-    gap: 60px;
+    grid-template-columns: 1.25fr 0.75fr;
+    gap: 100px;
     align-items: center;
 }
 
