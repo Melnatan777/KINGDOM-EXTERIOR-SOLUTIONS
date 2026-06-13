@@ -122,6 +122,43 @@
             transform: scale(1.04);
         }
 
+        .photo-placeholder {
+            width: 100%;
+            height: 240px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .photo-placeholder--before {
+            background: #1a2a3a;
+        }
+
+        .photo-placeholder--after {
+            background: #1a3320;
+        }
+
+        .photo-placeholder span {
+            font-size: 2rem;
+            display: block;
+        }
+
+        .photo-placeholder p {
+            color: rgba(255,255,255,0.9);
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin: 0;
+        }
+
+        .photo-placeholder small {
+            color: rgba(255,255,255,0.5);
+            font-size: 0.8rem;
+        }
+
         .before-label,
         .after-label {
             position: absolute;
@@ -387,21 +424,23 @@
         <div class="projects-grid" id="projectsGrid">
 
             <!-- PROJECT 1: Driveway -->
-            <!-- TO UPDATE: Replace gallery-1.webp (before) and gallery-2.webp (after) with real job photos -->
+            <!-- TO UPDATE: Replace the photo-placeholder divs below with real <img> tags when you have job photos -->
             <div class="project-card" data-category="pressure-washing">
 
                 <div class="before-after-pair ba-divider">
 
                     <div class="before-block">
                         <span class="before-label">Before</span>
-                        <img src="images/gallery-1.webp"
-                             alt="Driveway before pressure washing – Houston TX">
+                        <div class="photo-placeholder photo-placeholder--before">
+                            <span>📷</span><p>Driveway Before</p><small>Photo coming soon</small>
+                        </div>
                     </div>
 
                     <div class="after-block">
                         <span class="after-label">After</span>
-                        <img src="images/gallery-2.webp"
-                             alt="Driveway after pressure washing – Houston TX">
+                        <div class="photo-placeholder photo-placeholder--after">
+                            <span>✨</span><p>Driveway After</p><small>Photo coming soon</small>
+                        </div>
                     </div>
 
                 </div>
@@ -424,21 +463,23 @@
             </div>
 
             <!-- PROJECT 2: House Washing -->
-            <!-- TO UPDATE: Replace gallery-3.webp (before) and gallery-4.webp (after) with real job photos -->
+            <!-- TO UPDATE: Replace the photo-placeholder divs below with real <img> tags when you have job photos -->
             <div class="project-card" data-category="house-washing">
 
                 <div class="before-after-pair ba-divider">
 
                     <div class="before-block">
                         <span class="before-label">Before</span>
-                        <img src="images/gallery-3.webp"
-                             alt="House exterior before soft wash – Houston TX">
+                        <div class="photo-placeholder photo-placeholder--before">
+                            <span>📷</span><p>House Exterior Before</p><small>Photo coming soon</small>
+                        </div>
                     </div>
 
                     <div class="after-block">
                         <span class="after-label">After</span>
-                        <img src="images/gallery-4.webp"
-                             alt="House exterior after soft wash – Houston TX">
+                        <div class="photo-placeholder photo-placeholder--after">
+                            <span>✨</span><p>House Exterior After</p><small>Photo coming soon</small>
+                        </div>
                     </div>
 
                 </div>
@@ -461,21 +502,23 @@
             </div>
 
             <!-- PROJECT 3: Roof Cleaning -->
-            <!-- TO UPDATE: Replace gallery-5.webp (before) and gallery-6.webp (after) with real job photos -->
+            <!-- TO UPDATE: Replace the photo-placeholder divs below with real <img> tags when you have job photos -->
             <div class="project-card" data-category="roof-cleaning">
 
                 <div class="before-after-pair ba-divider">
 
                     <div class="before-block">
                         <span class="before-label">Before</span>
-                        <img src="images/gallery-5.webp"
-                             alt="Roof before cleaning – Houston TX">
+                        <div class="photo-placeholder photo-placeholder--before">
+                            <span>📷</span><p>Roof Before</p><small>Photo coming soon</small>
+                        </div>
                     </div>
 
                     <div class="after-block">
                         <span class="after-label">After</span>
-                        <img src="images/gallery-6.webp"
-                             alt="Roof after cleaning – Houston TX">
+                        <div class="photo-placeholder photo-placeholder--after">
+                            <span>✨</span><p>Roof After</p><small>Photo coming soon</small>
+                        </div>
                     </div>
 
                 </div>
@@ -498,21 +541,23 @@
             </div>
 
             <!-- PROJECT 4: Surface Cleaning -->
-            <!-- TO UPDATE: Replace gallery-1.webp (before) and gallery-3.webp (after) with real job photos -->
+            <!-- TO UPDATE: Replace the photo-placeholder divs below with real <img> tags when you have job photos -->
             <div class="project-card" data-category="surface-cleaning">
 
                 <div class="before-after-pair ba-divider">
 
                     <div class="before-block">
                         <span class="before-label">Before</span>
-                        <img src="images/gallery-2.webp"
-                             alt="Patio before surface cleaning – Houston TX">
+                        <div class="photo-placeholder photo-placeholder--before">
+                            <span>📷</span><p>Patio Before</p><small>Photo coming soon</small>
+                        </div>
                     </div>
 
                     <div class="after-block">
                         <span class="after-label">After</span>
-                        <img src="images/gallery-4.webp"
-                             alt="Patio after surface cleaning – Houston TX">
+                        <div class="photo-placeholder photo-placeholder--after">
+                            <span>✨</span><p>Patio After</p><small>Photo coming soon</small>
+                        </div>
                     </div>
 
                 </div>
