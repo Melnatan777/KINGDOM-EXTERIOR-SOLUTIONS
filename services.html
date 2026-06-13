@@ -58,8 +58,8 @@
 <header class="site-header">
     <div class="container header-inner">
         <a href="index.html" class="logo"><img src="images/Kingdom-Exterior-Solutions-Logo.svg" alt="Kingdom Exterior Solutions Logo"></a>
-        <nav class="nav-menu">
-            <a href="index.html#home">Home</a>
+        <nav class="nav-menu" id="navMenu">
+            <a href="index.html">Home</a>
             <a href="services.html">Services</a>
             <a href="about.html">About</a>
             <a href="gallery.html">Gallery</a>
@@ -67,6 +67,7 @@
             <a href="contact.html">Contact</a>
         </nav>
         <a href="contact.html" class="header-btn">Free Estimate</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
     </div>
 </header>
 
@@ -213,6 +214,24 @@
     </div>
     <div class="footer-bottom">© 2026 Kingdom Exterior Solutions. All Rights Reserved.</div>
 </footer>
+
+<script>
+(function(){
+    var btn = document.getElementById('hamburger');
+    var nav = document.getElementById('navMenu');
+    if(!btn || !nav) return;
+    btn.addEventListener('click', function(){
+        btn.classList.toggle('open');
+        nav.classList.toggle('open');
+    });
+    nav.querySelectorAll('a').forEach(function(a){
+        a.addEventListener('click', function(){
+            btn.classList.remove('open');
+            nav.classList.remove('open');
+        });
+    });
+})();
+</script>
 
 </body>
 </html>

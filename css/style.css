@@ -177,6 +177,10 @@ a {
     display: block;
 }
 
+.hamburger {
+    display: none;
+}
+
 .nav-menu {
     display: flex;
     gap: 34px;
@@ -599,10 +603,64 @@ a {
 
     .nav-menu {
         display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--navy);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 36px;
+        z-index: 9998;
+    }
+
+    .nav-menu.open {
+        display: flex;
+    }
+
+    .nav-menu a {
+        font-size: 1.6rem;
+        font-weight: 700;
     }
 
     .header-btn {
         display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 20px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        z-index: 9999;
+        position: relative;
+    }
+
+    .hamburger span {
+        display: block;
+        height: 3px;
+        background: white;
+        border-radius: 3px;
+        transition: all 0.3s ease;
+    }
+
+    .hamburger.open span:nth-child(1) {
+        transform: translateY(8.5px) rotate(45deg);
+    }
+
+    .hamburger.open span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.open span:nth-child(3) {
+        transform: translateY(-8.5px) rotate(-45deg);
     }
 }
 
